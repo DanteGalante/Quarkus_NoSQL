@@ -39,4 +39,8 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String getJsonPattern() {
+        return "{\"id\":\""+id+"\",\"name\":\""+name+"\",\"age\":"+age+"}";
+    }
 }
